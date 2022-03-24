@@ -10,7 +10,7 @@ function Splash({navigation}){
 
     setTimeout(()=>{
        navigation.navigate('Home')
-            }, 3000);
+            }, 2500);
 
 
 return(
