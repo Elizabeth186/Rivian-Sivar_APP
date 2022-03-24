@@ -7,24 +7,4 @@ import HomeScreen from './HomeScreen';
 
 
 
-const Stack = createNativeStackNavigator();
-export default function App() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen  name="splash" options={{headerShown: false}} component={Splas} />
-        <Stack.Screen name="Home" component={LoginScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  
-});
