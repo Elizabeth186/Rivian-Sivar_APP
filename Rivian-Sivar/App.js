@@ -6,7 +6,7 @@ import LoginScreen from './LoginScreen';
 import HomeScreen from './HomeScreen';
 
 
-function Splas({navigation}){
+function splash({navigation}){
 
   setTimeout(()=>{
      navigation.navigate('Home')
@@ -26,7 +26,7 @@ export default function App() {
 return (
   <NavigationContainer>
     <Stack.Navigator>
-      <Stack.Screen  name="splash" options={{headerShown: false}} component={Splas} />
+      <Stack.Screen  name="splash" options={{headerShown: false}} component={Splash} />
       <Stack.Screen name="Home" component={LoginScreen} />
     </Stack.Navigator>
   </NavigationContainer>
